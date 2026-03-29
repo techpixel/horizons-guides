@@ -1,6 +1,9 @@
 ---
-title: Guides
+title: Horizons Guides!
 description: Browse the available guides.
 ---
 
-Select a guide from the sidebar to get started.
+Welcome to the Horizons Guides page! Here we have a few guides on getting started with programming!
+
+
+*if you want to write your own guide or notice any errors, send @violet on slack a message or send a email to violet@hackclub.com*
