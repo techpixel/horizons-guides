@@ -1,6 +1,8 @@
 ---
 title: A guide to git commits
 description: a short guide to creating webpages
+sidebar:
+  order: 2
 ---
 
 ## Things to install :)

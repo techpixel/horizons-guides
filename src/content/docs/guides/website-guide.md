@@ -1,6 +1,8 @@
 ---
 title: Tribute - make a website
 description: a short guide to creating webpages
+sidebar:
+  order: 1
 ---
 
 a short guide to creating webpages 

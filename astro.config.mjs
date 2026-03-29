@@ -11,11 +11,18 @@ export default defineConfig({
 				src: './public/favicon.png',
 				alt: 'Horizons',
 			},
+			social: [
+					{ icon: 'github', label: 'GitHub', href: 'https://github.com/vivithequeen/horizons-guides' },
+				],
 			customCss: ['./src/styles/fonts.css', './src/styles/custom.css'],
 			sidebar: [
 				{
 					label: 'Guides',
-					autogenerate: { directory: 'guides' },
+					items: [
+						{ slug: 'guides/website-guide' },
+						{ slug: 'guides/git-guide' },
+						{ slug: 'guides/more-resources' },
+					],
 				},
 			],
 		}),
