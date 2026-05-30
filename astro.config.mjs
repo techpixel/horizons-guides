@@ -1,33 +1,38 @@
 // @ts-check
-import { defineConfig } from 'astro/config';
-import starlight from '@astrojs/starlight';
+import { defineConfig } from "astro/config";
+import starlight from "@astrojs/starlight";
 
 export default defineConfig({
-	integrations: [
-		starlight({
-			title: 'Horizons Guides',
-			favicon: '/favicon.ico',
-			logo: {
-				src: './public/favicon.png',
-				alt: 'Horizons',
-			},
-			social: [
-					{ icon: 'github', label: 'GitHub', href: 'https://github.com/vivithequeen/horizons-guides' },
-				],
-			customCss: ['./src/styles/fonts.css', './src/styles/custom.css'],
-			sidebar: [
-				{
-					label: 'Guides',
-					items: [
-						{ slug: 'guides/shipping-guide' },
-						{ slug: 'guides/git-guide' },
-						{ slug: 'guides/website-guide' },
-						{ slug: 'guides/godot-guide' },
-						{ slug: 'guides/flask-guide'},
-						{ slug: 'guides/more-resources' },
-					],
-				},
-			],
-		}),
-	],
+  integrations: [
+    starlight({
+      title: "Horizons Guides",
+      favicon: "/favicon.ico",
+      logo: {
+        src: "./public/favicon.png",
+        alt: "Horizons",
+      },
+      social: [
+        {
+          icon: "github",
+          label: "GitHub",
+          href: "https://github.com/vivithequeen/horizons-guides",
+        },
+      ],
+      customCss: ["./src/styles/fonts.css", "./src/styles/custom.css"],
+      sidebar: [
+        {
+          label: "Guides",
+          items: [
+            { slug: "guides/shipping-guide" },
+            { slug: "guides/git-guide" },
+            { slug: "guides/website-guide" },
+            { slug: "guides/godot-guide" },
+            { slug: "guides/flask-guide" },
+            { slug: "guides/gamemaker-guide" },
+            { slug: "guides/more-resources" },
+          ],
+        },
+      ],
+    }),
+  ],
 });
