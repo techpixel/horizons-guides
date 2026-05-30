@@ -19,6 +19,7 @@ export default defineConfig({
 				{
 					label: 'Guides',
 					items: [
+						{ slug: 'guides/shipping-guide' },
 						{ slug: 'guides/git-guide' },
 						{ slug: 'guides/website-guide' },
 						{ slug: 'guides/godot-guide' },
